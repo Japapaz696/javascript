@@ -1,5 +1,5 @@
 var variavel1 = prompt ("Digite um numero:")
 var variavel2 = prompt ("Digite outro numero:")
-variavel1 = parseInt(variavel1)
-variavel2 = parseInt(variavel2)
+variavel1 = parseFloat(variavel1)
+variavel2 = parseFloat(variavel2)
 document.write(variavel1 + variavel2)
