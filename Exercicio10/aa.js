@@ -1,0 +1,5 @@
+var num1 = prompt("Digite um numero:")
+var num2 = prompt("Digite outro numero:")
+num1 = parseInt(num1)
+num2 = parseInt(num2)
+document.write ('O modulo entre '+ num1 + ' é '  + num2 +' e: ' + (num1 % num2))
